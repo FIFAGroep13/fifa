@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Event HTML Template</title>
+	<title>FIFA13</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
@@ -65,10 +65,10 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#schedule">Schedule</a></li>
-					<li><a href="#speakers">Speakers</a></li>
+					<li><a href="#speakers">Employees</a></li>
 					<li><a href="#sponsors">Sponsors</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="blog.html">Login</a></li>
 				</ul>
 			</nav>
 			<!-- /Navigation -->
@@ -94,7 +94,7 @@
 						<div class="home-content">
 							<h1>Lorem ipsum dolor sit amet</h1>
 							<h4 class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-							<a href="#" class="main-btn">Buy Ticket</a>
+							<a href="#" class="main-btn">Contestant Login</a>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -115,7 +115,7 @@
 			<div class="row">
 				<!-- section title -->
 				<div class="section-title">
-					<h3 class="title"><span>About</span> <span style="color: #dd0a37;">Event</span></h3>
+					<h3 class="title">About <span>FIFA13</span></h3>
 				</div>
 				<!-- /section title -->
 
@@ -134,7 +134,7 @@
 							<!-- number -->
 							<div class="col-md-3 col-sm-3 col-xs-6">
 								<div class="number">
-									<h3><span class="counter" data-from="0" data-to="900" data-speed="1500">0</span>+</h3>
+									<h3><span class="counter" data-from="0" data-to="300" data-speed="25">0</span>+</h3>
 									<p>Hours</p>
 								</div>
 							</div>
@@ -143,8 +143,8 @@
 							<!-- number -->
 							<div class="col-md-3 col-sm-3 col-xs-6">
 								<div class="number">
-									<h3><span class="counter" data-from="0" data-to="750" data-speed="1500">0</span>+</h3>
-									<p>Venues</p>
+									<h3><span class="counter" data-from="0" data-to="4" data-speed="100">0</span>+</h3>
+									<p>Employees</p>
 								</div>
 							</div>
 							<!-- /number -->
@@ -152,7 +152,7 @@
 							<!-- number -->
 							<div class="col-md-3 col-sm-3 col-xs-6">
 								<div class="number">
-									<h3><span class="counter" data-from="0" data-to="50" data-speed="1500">0</span>+</h3>
+									<h3><span class="counter" data-from="0" data-to="1" data-speed="100">0</span>+</h3>
 									<p>Country</p>
 								</div>
 							</div>
@@ -161,7 +161,7 @@
 							<!-- number -->
 							<div class="col-md-3 col-sm-3 col-xs-6">
 								<div class="number">
-									<h3><span class="counter" data-from="0" data-to="20" data-speed="1500">0</span>+</h3>
+									<h3><span class="counter" data-from="0" data-to="" data-speed="1500">0</span>+</h3>
 									<p>Speakers</p>
 								</div>
 							</div>
@@ -229,7 +229,7 @@
 						<a class="video-play" href="#">
 							<i class="fa fa-play"></i>
 						</a>
-						<h2>Watch this video</h2>
+						<h2>Livestream</h2>
 						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 				</div>
