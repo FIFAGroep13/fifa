@@ -256,25 +256,23 @@
 				<div class="col-md-8 col-md-offset-2">
 
 					<div class="events-wrapper">
-						<!-- event -->
+						
 						<div class="event">
 							<div class="event-day">
 								<div>
-									<span class="day">15</span>
-									<span class="year">Feb, 2018</span>
+									<span class="day">19</span>
+									<span class="year">Apr, 2018</span>
 								</div>
 							</div>
 							<div class="event-content">
-								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
-								<h3 class="event-title">His id altera fabellas facilisis. Has eros assueverit cu</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<p>By <a href="#">John Doe</a></p>
+								<p class="event-time"><i class="fa fa-clock-o"></i> 9 : 00 AM - 12 : 15 AM</p>
+								<h3 class="event-title">Development</h3>
+								<p>Currently we are developing the HTML/CSS of the webpage!</p>
+								<p>By <a href="#">Damiën van Gageldonk</a></p>
 							</div>
 						</div>
-						<!-- /event -->
-
-						<!-- event -->
-						<div class="event">
+						
+						<!-- <div class="event">
 							<div class="event-hour"></div>
 							<div class="event-content">
 								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
@@ -283,9 +281,7 @@
 								<p>By <a href="#">John Doe</a></p>
 							</div>
 						</div>
-						<!-- /event -->
-
-						<!-- event -->
+						
 						<div class="event">
 							<div class="event-hour"></div>
 							<div class="event-content">
@@ -295,9 +291,7 @@
 								<p>By <a href="#">John Doe</a></p>
 							</div>
 						</div>
-						<!-- /event -->
-
-						<!-- event -->
+						
 						<div class="event">
 							<div class="event-day">
 								<div>
@@ -312,9 +306,7 @@
 								<p>By <a href="#">John Doe</a></p>
 							</div>
 						</div>
-						<!-- /event -->
-
-						<!-- event -->
+						
 						<div class="event">
 							<div class="event-hour"></div>
 							<div class="event-content">
@@ -324,9 +316,7 @@
 								<p>By <a href="#">John Doe</a></p>
 							</div>
 						</div>
-						<!-- /event -->
-
-						<!-- event -->
+						
 						<div class="event">
 							<div class="event-day">
 								<div>
@@ -341,9 +331,7 @@
 								<p>By <a href="#">John Doe</a></p>
 							</div>
 						</div>
-						<!-- /event -->
-
-						<!-- event -->
+						
 						<div class="event">
 							<div class="event-hour"></div>
 							<div class="event-content">
@@ -352,8 +340,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<p>By <a href="#">John Doe</a></p>
 							</div>
-						</div>
-						<!-- /event -->
+						</div>					 -->
 					</div>
 
 					<div class="download-btn">
@@ -376,7 +363,7 @@
 			<div class="row">
 				<!-- section title -->
 				<div class="section-title">
-					<h3 class="title"><span>Our</span> <span style="color: #dd0a37;">Speakers</span></h3>
+					<h3 class="title"><span>Our</span> <span style="color: #dd0a37;">Developers</span></h3>
 				</div>
 				<!-- section title -->
 
@@ -384,7 +371,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
 						<div class="speaker-img">
-							<img src="./img/speaker01.jpg" alt="">
+							<img src="./img/developer1.jpg" alt="">
 						</div>
 						<div class="speaker-body">
 							<div class="speaker-social">
@@ -394,7 +381,7 @@
 								<a href="#"><i class="fa fa fa-linkedin"></i></a>
 							</div>
 							<div class="speaker-content">
-								<h2>John Doe</h2>
+								<h2>Damiën van Gageldonk</h2>
 								<span>Manager, CEO</span>
 							</div>
 						</div>

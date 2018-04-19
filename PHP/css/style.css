@@ -224,7 +224,7 @@ textarea.input {
 }
 
 #header.transparent-navbar {
-  position: absolute;
+  position: fixed !important;
   left: 0;
   right: 0;
   top: 0;
@@ -237,12 +237,12 @@ textarea.input {
   left: 0;
   right: 0;
   top: 0;
-  background: #FFF;
+  background: white;
   -webkit-box-shadow: 0px 0px 3px #0003;
   box-shadow: 0px 0px 3px #0003;
   border-bottom: none;
-  -webkit-animation: slide-in 0.3s;
-  animation: slide-in 0.3s;
+  /* -webkit-animation: slide-in 0.3s;
+  animation: slide-in 0.3s; */
 }
 
 @-webkit-keyframes slide-in {
