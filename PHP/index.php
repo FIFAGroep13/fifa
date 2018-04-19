@@ -35,6 +35,7 @@
 			<![endif]-->
 </head>
 <body>
+	
 
 	<!-- Header -->
 	<header id="header" class="transparent-navbar">
@@ -371,7 +372,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
 						<div class="speaker-img">
-							<img src="./img/developer1.jpg" alt="">
+							<img src="./img/speaker01.jpg" alt="">
 						</div>
 						<div class="speaker-body">
 							<div class="speaker-social">
@@ -382,7 +383,7 @@
 							</div>
 							<div class="speaker-content">
 								<h2>Damiën van Gageldonk</h2>
-								<span>Manager, CEO</span>
+								<span>Manager, HTML/CSS, PHP, C#</span>
 							</div>
 						</div>
 					</div>
@@ -391,9 +392,9 @@
 
 				<!-- speaker -->
 				<div class="col-md-4 col-sm-6">
-					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-2">
 						<div class="speaker-img">
-							<img src="./img/speaker02.jpg" alt="">
+							<img src="./img/speaker01.jpg" alt="">
 						</div>
 						<div class="speaker-body">
 							<div class="speaker-social">
@@ -403,8 +404,8 @@
 								<a href="#"><i class="fa fa fa-linkedin"></i></a>
 							</div>
 							<div class="speaker-content">
-								<h2>John Doe</h2>
-								<span>Manager, CEO</span>
+								<h2>Davey Nijhuis</h2>
+								<span>Notulist, PHP</span>
 							</div>
 						</div>
 					</div>
@@ -413,9 +414,9 @@
 
 				<!-- speaker -->
 				<div class="col-md-4 col-sm-6">
-					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-3">
 						<div class="speaker-img">
-							<img src="./img/speaker03.jpg" alt="">
+							<img src="./img/speaker01.jpg" alt="">
 						</div>
 						<div class="speaker-body">
 							<div class="speaker-social">
@@ -425,8 +426,8 @@
 								<a href="#"><i class="fa fa fa-linkedin"></i></a>
 							</div>
 							<div class="speaker-content">
-								<h2>John Doe</h2>
-								<span>Manager, CEO</span>
+								<h2>Timo van Bijnen</h2>
+								<span>Member, PHP</span>
 							</div>
 						</div>
 					</div>
@@ -442,43 +443,73 @@
 								<div class="row">
 									<div class="col-md-5">
 										<div class="speaker-modal-img">
-											<img src="./img/speaker-info.jpg" alt="">
+											<img src="./img/speaker01.jpg" alt="">
 										</div>
 									</div>
 									<div class="col-md-7">
 										<div class="speaker-modal-content">
-											<h2 class="speaker-name">John Doe</h2>
-											<span class="speaker-job">- Manager, CEO</span>
+											<h2 class="speaker-name">Damiën van Gageldonk</h2>
+											<span class="speaker-job">- Manager, HTML/CSS, PHP, C#</span>
 
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
 												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 											<div class="speaker-website">
 												<h4>Website</h4>
-												<a href="#">www.johndoe.com</a>
+												<a href="#">www.damienvg99.nl</a>
 											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="speaker-modal-2" class="speaker-modal modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="speaker-modal-img">
+											<img src="./img/speaker01.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="speaker-modal-content">
+											<h2 class="speaker-name">Davey Nijhuis</h2>
+											<span class="speaker-job">- Notulist, PHP</span>
 
-											<div class="speaker-social">
-												<h4>Social Profile</h4>
-												<a href="#"><i class="fa fa-facebook"></i></a>
-												<a href="#"><i class="fa fa-twitter"></i></a>
-												<a href="#"><i class="fa fa-instagram"></i></a>
-												<a href="#"><i class="fa fa fa-linkedin"></i></a>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="speaker-modal-3" class="speaker-modal modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="speaker-modal-img">
+											<img src="./img/speaker01.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="speaker-modal-content">
+											<h2 class="speaker-name">Timo van Bijnen</h2>
+											<span class="speaker-job">- Member, PHP</span>
 
-											<div class="speaker-events">
-												<h4>Sessions</h4>
-												<div class="speaker-event">
-													<span><strong>Day 1 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
-													<p>His id altera fabellas facilisis. Has eros assueverit cu</p>
-												</div>
-
-												<div class="speaker-event">
-													<span><strong>Day 2 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
-													<p>At mucius deserunt delicatissimi eam, labitur detraxit ut sit</p>
-												</div>
-											</div>
-
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 										</div>
 									</div>
 								</div>
@@ -569,6 +600,10 @@
 					</a>
 				</div>
 				<!-- /sponsor -->
+
+				<div class="scrolltext">
+					<marquee behavior="scroll" direction="left">Wij danken onze sponsoren voor de bijdrage aan het FIFA Project!</marquee>
+				</div>
 
 			</div>
 			<!-- /row -->
@@ -700,7 +735,7 @@
 	<script src="js/google-map.js"></script>
 	<script src="js/jquery.countTo.js"></script>
 	<script src="js/main.js"></script>
-
+	
 </body>
 
 </html>
