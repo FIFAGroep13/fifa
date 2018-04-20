@@ -63,13 +63,13 @@
 			<!-- Navigation -->
 			<nav id="nav">
 				<ul class="main-nav nav navbar-nav navbar-right">
-					<li><a href="index.html#home">Home</a></li>
-					<li><a href="index.html#about">About</a></li>
-					<li><a href="index.html#schedule">Schedule</a></li>
-					<li><a href="index.html#speakers">Speakers</a></li>
-					<li><a href="index.html#sponsors">Sponsors</a></li>
-					<li><a href="index.html#contact">Contact</a></li>
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="index.php#home">Home</a></li>
+					<li><a href="index.php#about">About</a></li>
+					<li><a href="index.php#schedule">Schedule</a></li>
+					<li><a href="index.php#speakers">Speakers</a></li>
+					<li><a href="index.php#sponsors">Sponsors</a></li>
+					<li><a href="index.php#contact">Contact</a></li>
+					<li class="active" ><a href="login.php">Login</a></li>
 				</ul>
 			</nav>
 			<!-- /Navigation -->
@@ -88,7 +88,7 @@
 				<!-- wrapper content -->
 				<div class="col-md-12">
 					<div class="page-wrapper-content">
-						<h1>Regular Page</h1>
+						<h1>Login</h1>
 					</div>
 				</div>
 				<!-- /wrapper content -->
@@ -106,82 +106,6 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- CTA -->
-	<div id="cta" class="section">
-		<!-- background image -->
-		<div class="section-bg" style="background-image:url(./img/background03.jpg)" data-stellar-background-ratio="0.5"></div>
-		<!-- /background image -->
-
-		<!-- container -->
-		<div class="container">
-			<!-- container -->
-			<div class="row">
-				<!-- cta content -->
-				<div class="col-md-8 col-md-offset-2">
-					<div class="cta-content text-center">
-						<h2>Get Ticket Now!</h2>
-						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="#" class="main-btn">Buy Ticket</a>
-					</div>
-				</div>
-				<!-- /cta content -->
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /CTA -->
-
-	<!-- Contact -->
-	<div id="contact" class="section">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- section title -->
-				<div class="section-title">
-					<h3 class="title"><span>Contact</span> <span style="color: #dd0a37;">Info</span></h3>
-				</div>
-				<!-- /section title -->
-
-				<!-- contact -->
-				<div class="col-sm-4">
-					<div class="contact">
-						<h3>Address</h3>
-						<p>2635 Simons Hollow Road, NEW YORK</p>
-					</div>
-				</div>
-				<!-- /contact -->
-
-				<!-- contact -->
-				<div class="col-sm-4">
-					<div class="contact">
-						<h3>Phone</h3>
-						<p>570-751-2415</p>
-					</div>
-				</div>
-				<!-- /contact -->
-
-				<!-- contact -->
-				<div class="col-sm-4">
-					<div class="contact">
-						<h3>Email</h3>
-						<a href="#">event@support.com</a>
-					</div>
-				</div>
-				<!-- /contact -->
-
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-
-		<!-- Map -->
-		<div id="map"></div>
-		<!-- /Map -->
-	</div>
-	<!-- /Contact -->
 
 	<!-- Footer -->
 	<footer id="footer">

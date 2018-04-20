@@ -601,10 +601,6 @@
 				</div>
 				<!-- /sponsor -->
 
-				<div class="scrolltext">
-					<marquee behavior="scroll" direction="left">Wij danken onze sponsoren voor de bijdrage aan het FIFA Project!</marquee>
-				</div>
-
 			</div>
 			<!-- /row -->
 		</div>
