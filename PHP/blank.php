@@ -68,7 +68,6 @@
 					<li><a href="index.php#schedule">Schedule</a></li>
 					<li><a href="index.php#speakers">Speakers</a></li>
 					<li><a href="index.php#sponsors">Sponsors</a></li>
-					<li><a href="index.php#contact">Contact</a></li>
 					<li class="active" ><a href="login.php">Login</a></li>
 				</ul>
 			</nav>

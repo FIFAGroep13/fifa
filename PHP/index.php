@@ -68,8 +68,7 @@
 					<li><a href="#schedule">Schedule</a></li>
 					<li><a href="#speakers">Employees</a></li>
 					<li><a href="#sponsors">Sponsors</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="blog.html">Login</a></li>
+					<li><a href="login.php">Login</a></li>
 				</ul>
 			</nav>
 			<!-- /Navigation -->
@@ -81,7 +80,7 @@
 	<!-- Home -->
 	<div id="home">
 		<!-- background image -->
-		<div class="section-bg" style="background-image:url(./img/background01.jpg)" data-stellar-background-ratio="0.5"></div>
+		<div id="scroll-past" class="section-bg" style="background-image:url(./img/background01.jpg)" data-stellar-background-ratio="0.5"></div>
 		<!-- /background image -->
 
 		<!-- home wrapper -->
@@ -369,7 +368,7 @@
 				<!-- section title -->
 
 				<!-- speaker -->
-				<div class="col-md-4 col-sm-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
 						<div class="speaker-img">
 							<img src="./img/speaker01.jpg" alt="">
@@ -391,7 +390,7 @@
 				<!-- /speaker -->
 
 				<!-- speaker -->
-				<div class="col-md-4 col-sm-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-2">
 						<div class="speaker-img">
 							<img src="./img/speaker01.jpg" alt="">
@@ -405,7 +404,7 @@
 							</div>
 							<div class="speaker-content">
 								<h2>Davey Nijhuis</h2>
-								<span>Notulist, PHP</span>
+								<span>Notulist, HTML/CSS, PHP</span>
 							</div>
 						</div>
 					</div>
@@ -413,7 +412,7 @@
 				<!-- /speaker -->
 
 				<!-- speaker -->
-				<div class="col-md-4 col-sm-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-3">
 						<div class="speaker-img">
 							<img src="./img/speaker01.jpg" alt="">
@@ -427,7 +426,29 @@
 							</div>
 							<div class="speaker-content">
 								<h2>Timo van Bijnen</h2>
-								<span>Member, PHP</span>
+								<span>Member, HTML/CSS, PHP</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+
+				<!-- speaker -->
+				<div class="col-md-6 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-4">
+						<div class="speaker-img">
+							<img src="./img/speaker01.jpg" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>Khaled Khodir</h2>
+								<span>Member, HTML/CSS, PHP</span>
 							</div>
 						</div>
 					</div>
@@ -511,6 +532,30 @@
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
 												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="speaker-modal-4" class="speaker-modal modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="speaker-modal-img">
+											<img src="./img/speaker01.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="speaker-modal-content">
+											<h2 class="speaker-name">Khaled Khodir</h2>
+											<span class="speaker-job">- Member, HTML/CSS, PHP</span>
+
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 									</div>
 								</div>
 							</div>

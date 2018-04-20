@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Event HTML Template</title>
+	<title>Login - FIFA 13</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
@@ -68,7 +68,6 @@
 					<li><a href="index.php#schedule">Schedule</a></li>
 					<li><a href="index.php#speakers">Speakers</a></li>
 					<li><a href="index.php#sponsors">Sponsors</a></li>
-					<li><a href="index.php#contact">Contact</a></li>
 					<li class="active" ><a href="login.php">Login</a></li>
 				</ul>
 			</nav>
@@ -93,6 +92,24 @@
 				</div>
 				<!-- /wrapper content -->
 			</div>
+            <form class="" action="index.html" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="input" type="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="input" type="password" placeholder="Password">
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <button class="main-btn">Login</button>
+                    </div>
+                </div>
+            </form>
 			<!-- /row -->
 		</div>
 		<!-- /container -->
