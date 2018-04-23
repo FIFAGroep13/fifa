@@ -1,20 +1,58 @@
-# Project FIFA
+# FIFA Group 13
+De Gokkers PHP Project, as extension on the original C# Project
 
-## Welkom bij het project FIFA.
+This project will include: PHP, PHP Controllers, CSS or SCSS
 
-Deze repository dient als startpunt voor het maken van jullie web-applicatie. Zie documentatie voor verdere uitleg.
+# Team Members
 
-## Getting started
-Bekijk het hoorcollege “versiebeheer” op mysite!
+Damiën van Gageldonk
 
-Hoe haal ik deze code binnen?
-* Maak een github organisatie aan met je projectgroep
-* Nodig alle members van de groep uit voor deze organisatie
-* Fork deze repository naar jullie aangemaakte githuborganisatie (knop rechtsboven).
-* Iedere groepsgenoot cloned de zojuist gekopieerde repository.
-* Als het goed is is iedereen van het groepje eigenaar van de repository en kan iedereen pullen en pushen.
+Khaled Khodir
 
-## Tip
-In deze repository is alleen een opzet voor de code beschikbaar, maar de opdrachtgever heeft ook al een idee over hoe de web-app er uit moet gaan zien. Vraag hier naar in je interview!
+Davey Nijhuis
 
- 
+Timo van Bijnen
+
+# Convention report
+
+# Use spacing, always. Example:
+Wrong:
+$a=$b+$c
+
+Right:
+$a = $b + $c
+
+# Always use spacing next to parentheses() and brackets[], except when they are empty Example:
+Wrong:
+var_dump($p);
+
+Right:
+var_dump( $p );
+
+# All control structures (if, switch, for) have to be followed by a space. Example:
+
+Wrong:
+if($a = $b)
+
+Right:
+if ( $a = $b )
+
+# When commenting, always put a space behind the # or //. Example:
+
+Wrong: 
+//Hello World!
+
+Right:
+// Hello World!
+
+/* NEVER COMMENT LIKE THIS */
+
+# Variables and functions are always lowerCamelCase. Example:
+
+Wrong:
+$UpperCamelCase
+
+Right:
+$lowerCamelCase
+
+# End of File Reached!
