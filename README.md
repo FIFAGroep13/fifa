@@ -1,5 +1,5 @@
 # FIFA Group 13
-De Gokkers PHP Project, as extension on the original C# Project
+FIFA Group 13 Project, as extension on the original C# Project
 
 This project will include: PHP, PHP Controllers, CSS or SCSS
 
