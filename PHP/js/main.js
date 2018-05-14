@@ -15,7 +15,7 @@
 	// Fixed nav
 	$(window).on('scroll', function() {
 		var wScroll = $(this).scrollTop();
-		wScroll > $('#scroll-past').height() ? $('#header').addClass('fixed-navbar') : $('#header').removeClass('fixed-navbar');
+		wScroll > $('#scroll-past').height() - 50 ? $('#header').addClass('fixed-navbar') : $('#header').removeClass('fixed-navbar');
 	});
 
 	// Smooth scroll

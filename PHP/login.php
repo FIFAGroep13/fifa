@@ -92,21 +92,23 @@
 				</div>
 				<!-- /wrapper content -->
 			</div>
-            <form class="" action="index.html" method="post">
+            <form class="" action="LoginController.php" method="POST">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input class="input" type="email" placeholder="Email">
+                            <input class="input" name="email" type="email" placeholder="Email">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input class="input" type="password" placeholder="Password">
+                            <input class="input" name="password" type="password" placeholder="Password">
                         </div>
                     </div>
                     
-                    <div class="col-md-6">
-                        <button class="main-btn">Login</button>
+                    <div class="col-md-12">
+					<div class="text-center">
+                        <button type="submit" class="main-btn">Login</button>
+						</div>
                     </div>
                 </div>
             </form>
