@@ -86,7 +86,9 @@
 				<!-- wrapper content -->
 				<div class="col-md-12">
 					<div class="page-wrapper-content">
-						<h1>Login</h1>
+                    <?php
+                        echo "<h1>Welkom</h1>";
+                    ?>
 					</div>
 				</div>
 				<!-- /wrapper content -->

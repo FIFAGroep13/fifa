@@ -25,7 +25,7 @@ if (!empty($email) && !empty($password)){
 
                             $_SESSION['email'] = $email_loggedin;      
                             $_SESSION['loggedin'] = true;
-                            header("Location: admin.php?messages=Je bent aangemeld!");
+                            header("Location: admin.php?messages=Welkom, je bent aangemeld bij FIFA!");
                             
                         } else{
                             // Display an error message if password is not valid

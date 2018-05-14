@@ -899,6 +899,9 @@ textarea.input {
 
 .blog {
   position: relative;
+  padding: 5px;
+  border-radius: 1%;
+  border: 1px solid #939393;
 }
 
 .blog+.blog {
