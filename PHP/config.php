@@ -1,5 +1,5 @@
 <?php
-
+$userRow['user_pass'] = "$2y$10BBCpJxgPa8K.iw9ZporxzuW2Lt478RPUV/JFvKRHKzJhIwGhd1tpa";
 $servername = "localhost";
 $username = "damienvg99_nl_fifa";
 $password = "BvBXYq4q8bpZ";

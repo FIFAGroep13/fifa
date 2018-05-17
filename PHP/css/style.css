@@ -1038,6 +1038,150 @@ textarea.input {
 }
 
 /*=========================================================
+	ADMIN
+===========================================================*/
+
+.admin {
+  position: relative;
+  padding: 5px;
+  border-radius: 1%;
+  border: 1px solid #939393;
+}
+
+.admin+.admin {
+  margin-top: 60px;
+}
+
+.admin:last-child {
+  margin-bottom: 60px;
+}
+
+.admin .admin-img {
+  margin-bottom: 30px;
+}
+
+.admin .admin-img>img {
+  width: 100%;
+}
+
+.admin .admin-meta {
+  margin-bottom: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.admin .admin-meta .admin-day {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.admin .admin-meta .admin-tags {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.admin .admin-meta .admin-tags li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.admin .admin-meta .admin-tags li:first-child {
+  font-weight: 700;
+  color: #0b0f28;
+}
+
+.admin .admin-content .read-more {
+  display: inline-block;
+  padding: 7px 14px;
+  background: #dd0a37;
+  color: #FFF;
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin-top: 15px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.admin .admin-content .read-more:hover, .admin .admin-content .read-more:focus {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.admin .admin-share {
+  margin: 30px 0px 60px;
+}
+
+.admin .admin-share li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.admin .admin-share li:first-child {
+  line-height: 30px;
+  font-weight: 700;
+  color: #0b0f28;
+}
+
+.admin .admin-share li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #dd0a37;
+  color: #FFF;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+}
+
+.admin-share li a:hover {
+  opacity: 0.8;
+}
+
+.admin .admin-comments .media {
+  margin-top: 30px;
+}
+
+.admin .admin-comments .media .media-left {
+  padding-right: 30px;
+}
+
+.admin .admin-comments .media .media-left .media-object {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.admin .admin-comments .media .media-heading {
+  margin-bottom: 30px;
+}
+
+.admin .admin-comments .media .media-heading h4 {
+  margin-bottom: 10px;
+}
+
+.admin .admin-comments .media .media-heading .date {
+  font-size: 12px;
+}
+
+.admin .admin-comments .media .media-heading .reply-btn {
+  margin-left: 10px;
+  color: #dd0a37;
+}
+
+.admin .admin-reply {
+  margin-top: 60px;
+}
+
+.admin .admin-reply form {
+  margin-top: 30px;
+}
+
+.admin .admin-reply form .form-group {
+  margin-bottom: 30px;
+}
+
+/*=========================================================
 	RESPONSIVE
 ===========================================================*/
 

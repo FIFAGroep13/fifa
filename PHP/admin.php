@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Event HTML Template</title>
+	<title>Admin - FIFA 13</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
@@ -23,8 +23,9 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
-	<?php
-	include_once("config.php");
+    <?php
+    session_start();
+    include_once("config.php");
 	?>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -86,9 +87,7 @@
 				<!-- wrapper content -->
 				<div class="col-md-12">
 					<div class="page-wrapper-content">
-                    <?php
-                        echo "<h1>Welkom</h1>";
-                    ?>
+						<h2>Welkom</h2>
 					</div>
 				</div>
 				<!-- /wrapper content -->
@@ -102,7 +101,63 @@
 	<div class="section">
 		<div class="container">
 			<div class="row">
+                <!-- admin -->
+            <div id="admin" class="section">
+                <!-- container -->
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
 
+                        <div class="col-md-6">
+                            <!-- admin -->
+                            <div class="admin">
+                                <div class="admin-content">
+                                    <h3><a href="#">Invoer Teams</a></h3>
+                                    <a class="read-more" href="admin-teams.php">Lees meer</a>
+                                </div>
+                            </div>
+                            <!-- /admin -->
+
+                            <!-- admin -->
+                            <div class="admin">
+                                <div class="admin-content">
+                                    <h3><a href="#">Invoer resultaten</a></h3>
+                                    <a class="read-more" href="admin-points.php">Lees meer</a>
+                                </div>
+                            </div>
+                            <!-- /admin -->
+                        </div>
+
+                        <div class="col-md-6">
+                            <!-- /admin -->
+                            <div class="admin">
+                                <div class="admin-content">
+                                    <h3><a href="#">Toon finales</a></h3>
+                                    <a class="read-more" href="admin-finales.php">Lees meer</a>
+                                </div>
+                            </div>
+                            <!-- /admin -->
+
+                            <!-- admin -->
+                            <div class="admin">
+                                <div class="admin-content">
+                                    <h3><a href="#">Toon resultaten</a></h3>
+                                    <a class="read-more" href="admin-results.php">Lees meer</a>
+                                </div>
+                            </div>
+                            <!-- /admin -->
+                        </div>
+
+                      
+				</div>
+
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /admin -->
 			</div>
 		</div>
 	</div>
