@@ -24,7 +24,7 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 	<?php
-	include_once("config.php");
+	require_once("config.php");
 	?>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -92,6 +92,7 @@
 				<!-- /wrapper content -->
 			</div>
             <form class="" action="LoginController.php" method="POST">
+						<input type="hidden" name="login">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -106,7 +107,7 @@
                     
                     <div class="col-md-12">
 					<div class="text-center">
-                        <button type="submit" class="main-btn">Login</button>
+                        <button type="submit" value="Submit" class="main-btn">Login</button>
 						</div>
                     </div>
                 </div>

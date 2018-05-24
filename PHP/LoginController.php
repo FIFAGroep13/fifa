@@ -1,27 +1,34 @@
 <?php
 require_once('config.php');
-session_start();
-$email = $_POST['email'];
-$password = $_POST['password'];
-try
-       {
-          $stmt = $dbh->prepare("SELECT * FROM tbl_admins WHERE email =:email AND password=:password");
-          $stmt->execute(array(':email'=>$email, ':password'=>$password));
-          $userRow=$stmt->fetch(PDO::FETCH_ASSOC);
-          if($stmt->rowCount() > 0)
-          {
-             if(password_verify($password, $userRow['user_pass']))
-             {
-                $_SESSION['user_session'] = $userRow['user_id'];
-                return true;
-             }
-             else
-             {
-                return false;
-             }
-          }
-       }
-       catch(PDOException $e)
-       {
-           echo $e->getMessage();
-       }
+
+
+if(isset($_POST['login'])){
+			
+	$errMsg = '';
+	//email and password sent from Form
+	$email = trim($_POST['email']);
+	$password = trim($_POST['password']);
+	
+	if($email == '')
+		$errMsg .= 'You must enter your Email<br>';
+	echo $errMsg;
+	if($password == '')
+		$errMsg .= 'You must enter your Password<br>';
+	echo $errMsg;
+	
+	if($errMsg == ''){
+		$records = $dbh->prepare('SELECT id,email,password FROM  tbl_admins WHERE email = :email');
+		$records->bindParam(':email', $email);
+		$records->execute();
+		$results = $records->fetch(PDO::FETCH_ASSOC);
+	}
+		if(count($results) > 0){
+			$_SESSION['email'] = $results['email'];
+			$_SESSION['logged'] = true;
+			header('location: admin.php');
+			exit;
+		}else{
+			$errMsg .= 'email and Password are not found<br>';
+			echo $errMsg;
+		}
+	}

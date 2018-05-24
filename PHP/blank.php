@@ -24,7 +24,7 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 	<?php
-	include_once("config.php");
+	require_once("config.php");
 	?>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
