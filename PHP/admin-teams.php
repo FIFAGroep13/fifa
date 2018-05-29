@@ -110,14 +110,13 @@
                 <div class="container">
                     <!-- row -->
                     <div class="row">
-
-                        <div class="col-md-6">
+					<form class="" action="TeamController.php" method="POST">
+                        <div class="col-md-12">
                             <!-- admin -->
                             <div class="admin">
-							<form 
                                 <div class="admin-content">
-                                    <h3><a href="#">Team 1</a></h3>
-                                    <input type="number" ></input>
+                                    <h3><a href="#">Team Nummer Invoeren</a></h3>
+                                    <input class="input" name="teamnumber" type="number" placeholder="Team nummer">
                                 </div>
                             </div>
                             <!-- /admin -->
@@ -125,8 +124,8 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer resultaten</a></h3>
-                                    <a class="read-more" href="admin-points.php">Lees meer</a>
+                                    <h3><a href="#">Team Naam invoeren</a></h3>
+                                    <input class="input" name="teamnaam" type="text" placeholder="Team naam">
                                 </div>
                             </div>
                             <!-- /admin -->
