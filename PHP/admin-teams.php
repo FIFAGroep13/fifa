@@ -118,7 +118,27 @@
                             <div class="admin">
                                 <div class="admin-content">
                                     <h3><a href="#">Team Nummer Invoeren</a></h3>
-                                    <input class="input" name="teamnumber" type="number" placeholder="Team nummer">
+                                    <select name="team">
+										<option value="">Select...</option>
+										<option value="1">Feyenoord</option>
+										<option value="2">PSV</option>
+										<option value="3">NAC</option>
+										<option value="4">ADO</option>
+										<option value="5">AZ</option>
+										<option value="6">FC Emmen</option>
+										<option value="7">Excelsior</option>
+										<option value="8">Fortuna</option>
+										<option value="9">De Graafschap</option>
+										<option value="10">FC Groningen</option>
+										<option value="11">sc Heerenveen</option>
+										<option value="12">Heracles</option>
+										<option value="13">PEC</option>
+										<option value="14">FC Utrecht</option>
+										<option value="15">Vitesse</option>
+										<option value="16">VVV-Venlo</option>
+										<option value="17">Willem II</option>
+										<option value="18">Ajax</option>
+									</select>
                                 </div>
                             </div>
                             <!-- /admin -->
@@ -126,30 +146,19 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Team Naam invoeren</a></h3>
-                                    <input class="input" name="teamnaam" type="text" placeholder="Team naam">
+                                    <h3><a href="#">Namen van teamlid invoeren</a></h3>
+                                    <input class="input" name="naam1" type="text" placeholder="Naam 1">
                                 </div>
                             </div>
+							<div class="admin">
+                                <div class="admin-content">
+                                    <h3><a href="#">SchoolID van teamlid invoeren (D-Nummer)</a></h3>
+                                    <input class="input" name="id1" type="text" placeholder="ID 1">
+                                </div>
+                            </div>
+							<button type="submit" value="Submit" class="main-btn">Submit</button>
                             <!-- /admin -->
                         </div>
-
-                        <div class="col-md-12">
-                            <!-- /admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Namen van teamleden invoeren</a></h3>
-                                    <input class="input" name="naam1" type="text" placeholder="Naam 1">
-									<input class="input" name="naam2" type="text" placeholder="Naam 2">
-									<input class="input" name="naam3" type="text" placeholder="Naam 3">
-									<input class="input" name="naam4" type="text" placeholder="Naam 4">
-									<input class="input" name="naam5" type="text" placeholder="Naam 5">
-                                </div>
-                            </div>
-                            <!-- /admin -->
-
-                            <!-- admin -->
-                            
-                            <!-- /admin -->
                         </div>
 
                       
