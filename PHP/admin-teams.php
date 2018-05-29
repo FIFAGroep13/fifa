@@ -114,9 +114,10 @@
                         <div class="col-md-6">
                             <!-- admin -->
                             <div class="admin">
+							<form 
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer Teams</a></h3>
-                                    <a class="read-more" href="admin-teams.php">Lees meer</a>
+                                    <h3><a href="#">Team 1</a></h3>
+                                    <input type="number" ></input>
                                 </div>
                             </div>
                             <!-- /admin -->
