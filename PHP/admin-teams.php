@@ -117,8 +117,8 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Team Nummer Invoeren</a></h3>
-                                    <select name="team">
+                                    <h3><a id="number" href="#">Team Nummer Invoeren</a></h3>
+                                    <select name="team" id="numberselect">
 										<option value="">Select...</option>
 										<option value="1">Feyenoord</option>
 										<option value="2">PSV</option>
@@ -146,14 +146,14 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Namen van teamlid invoeren</a></h3>
-                                    <input class="input" name="naam1" type="text" placeholder="Naam 1">
+                                    <h3><a id="name" href="#">Namen van teamlid invoeren</a></h3>
+                                    <input id="nameinp" class="input" name="naam1" type="text" placeholder="Naam">
                                 </div>
                             </div>
 							<div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">SchoolID van teamlid invoeren (D-Nummer)</a></h3>
-                                    <input class="input" name="id1" type="text" placeholder="ID 1">
+                                    <h3><a id="id" href="#">SchoolID van teamlid invoeren (D-Nummer)</a></h3>
+                                    <input id="idinp" class="input" name="id1" type="text" placeholder="D111111">
                                 </div>
                             </div>
 							<button type="submit" value="Submit" class="main-btn">Submit</button>
