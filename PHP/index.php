@@ -24,9 +24,6 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
-	<?php
-	include_once("config.php");
-	?>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -68,6 +65,13 @@
 					<li><a href="#schedule">Schedule</a></li>
 					<li><a href="#sponsors">Sponsors</a></li>
 					<li><a href="login.php">Login</a></li>
+					<?php
+						require_once("config.php");
+						if (isset($_SESSION['logged'])) {
+							echo "<li><a href=\"admin.php\">Admin</a></li>";
+							echo "<li><a href=\"logout.php\">Logout</a></li>";
+						}
+					?>
 				</ul>
 			</nav>
 			<!-- /Navigation -->

@@ -72,6 +72,7 @@
 					<li><a href="index.php#schedule">Schedule</a></li>
 					<li><a href="index.php#sponsors">Sponsors</a></li>
 					<li class="active" ><a href="login.php">Login</a></li>
+					<li><a href="admin.php">Admin</a></li>	
 					<li><a href="logout.php">Logout</a></li>					
 				</ul>
 			</nav>
@@ -132,23 +133,22 @@
                             <!-- /admin -->
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <!-- /admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Toon finales</a></h3>
-                                    <a class="read-more" href="admin-finales.php">Lees meer</a>
+                                    <h3><a href="#">Namen van teamleden invoeren</a></h3>
+                                    <input class="input" name="naam1" type="text" placeholder="Naam 1">
+									<input class="input" name="naam2" type="text" placeholder="Naam 2">
+									<input class="input" name="naam3" type="text" placeholder="Naam 3">
+									<input class="input" name="naam4" type="text" placeholder="Naam 4">
+									<input class="input" name="naam5" type="text" placeholder="Naam 5">
                                 </div>
                             </div>
                             <!-- /admin -->
 
                             <!-- admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Toon resultaten</a></h3>
-                                    <a class="read-more" href="admin-results.php">Lees meer</a>
-                                </div>
-                            </div>
+                            
                             <!-- /admin -->
                         </div>
 
