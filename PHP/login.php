@@ -1,3 +1,12 @@
+<?php
+	require_once("config.php");
+
+	if(isset($_SESSION['logged']))
+	{
+		header("location: admin.php");
+	}
+	?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,9 +32,7 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
-	<?php
-	require_once("config.php");
-	?>
+	
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,7 +74,7 @@
 					<li><a href="index.php#about">About</a></li>
 					<li><a href="index.php#schedule">Schedule</a></li>
 					<li><a href="index.php#sponsors">Sponsors</a></li>
-					<li class="active" ><a href="login.php">Login</a></li>
+					<li class="active"><a href="login.php">Login</a></li>
 				</ul>
 			</nav>
 			<!-- /Navigation -->

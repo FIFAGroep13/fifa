@@ -71,7 +71,8 @@
 					<li><a href="index.php#about">About</a></li>
 					<li><a href="index.php#schedule">Schedule</a></li>
 					<li><a href="index.php#sponsors">Sponsors</a></li>
-					<li class="active" ><a href="login.php">Login</a></li>
+					<li><a href="login.php">Login</a></li>
+					<li class="active"><a href="admin.php">Admin</a></li>
 					<li><a href="logout.php">Logout</a></li>
 				</ul>
 			</nav>
