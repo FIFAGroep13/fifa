@@ -92,7 +92,7 @@
 				<!-- wrapper content -->
 				<div class="col-md-12">
 					<div class="page-wrapper-content">
-						<h2>Welkom</h2>
+						<h2>Verwijder Spelers</h2>
 						<?php
 						if(isset($_SESSION['deletedplayer'])){
 							echo "<div class=\"alert\">
@@ -100,6 +100,7 @@
   								Succesfully deleted player.
 							</div>";
 						}
+						unset($_SESSION['deletedplayer']);
 						
 						?>
 					</div>
