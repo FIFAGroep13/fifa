@@ -9,5 +9,5 @@ $teams->bindParam(':id', $id);
 
 $teams->execute();
 
-header("location: admin-teams.php?message=\"Deleted $id\"");
+header("location: admin-del-players.php?message=\"Deleted $id\"");
 $_SESSION['deletedplayer'] = true;
