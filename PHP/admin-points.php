@@ -122,7 +122,8 @@
                                 </div>
                             </div>
                             <!-- /admin -->
-
+												</div>
+												<div class="col-md-6">
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
@@ -133,47 +134,7 @@
                             <!-- /admin -->
                         </div>
 
-                        <div class="col-md-6">
-                            <!-- /admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Verwijder Spelers</a></h3>
-                                    <a class="read-more" href="admin-del-players.php">Lees meer</a>
-                                </div>
-                            </div>
-                            <!-- /admin -->
-
-                            <!-- admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Toon resultaten</a></h3>
-                                    <a class="read-more" href="admin-results.php">Lees meer</a>
-                                </div>
-                            </div>
-                            <!-- /admin -->
-                        </div>
-
-						<div class="col-md-6">
-                            <!-- admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Toon resultaten</a></h3>
-                                    <a class="read-more" href="admin-results.php">Lees meer</a>
-                                </div>
-                            </div>
-                            <!-- /admin -->
-                        </div>
-
-                      <div class="col-md-6">
-                            <!-- /admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Verwijder Spelers</a></h3>
-                                    <a class="read-more" href="admin-del-players.php">Lees meer</a>
-                                </div>
-                            </div>
-                            <!-- /admin -->
-                        </div>
+                        
 
 				</div>
 
