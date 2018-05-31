@@ -113,26 +113,60 @@
                     <!-- row -->
                     <div class="row">
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
                                     <h3><a href="#">Invoer Spelers</a></h3>
-                                    <a class="read-more" href="admin-teams.php">Lees meer</a>
+                                    <select name="team" class="input" id="teamselect1">
+																			<option value="">Select...</option>
+																			<option value="1">Feyenoord</option>
+																			<option value="2">PSV</option>
+																			<option value="3">NAC</option>
+																			<option value="4">ADO</option>
+																			<option value="5">AZ</option>
+																			<option value="6">FC Emmen</option>
+																			<option value="7">Excelsior</option>
+																			<option value="8">Fortuna</option>
+																			<option value="9">De Graafschap</option>
+																			<option value="10">FC Groningen</option>
+																			<option value="11">sc Heerenveen</option>
+																			<option value="12">Heracles</option>
+																			<option value="13">PEC</option>
+																			<option value="14">FC Utrecht</option>
+																			<option value="15">Vitesse</option>
+																			<option value="16">VVV-Venlo</option>
+																			<option value="17">Willem II</option>
+																			<option value="18">Ajax</option>
+																		</select>
+																		<select name="team" class="input" id="teamselect2">
+																			<option value="">Select...</option>
+																			<option value="1">Feyenoord</option>
+																			<option value="2">PSV</option>
+																			<option value="3">NAC</option>
+																			<option value="4">ADO</option>
+																			<option value="5">AZ</option>
+																			<option value="6">FC Emmen</option>
+																			<option value="7">Excelsior</option>
+																			<option value="8">Fortuna</option>
+																			<option value="9">De Graafschap</option>
+																			<option value="10">FC Groningen</option>
+																			<option value="11">sc Heerenveen</option>
+																			<option value="12">Heracles</option>
+																			<option value="13">PEC</option>
+																			<option value="14">FC Utrecht</option>
+																			<option value="15">Vitesse</option>
+																			<option value="16">VVV-Venlo</option>
+																			<option value="17">Willem II</option>
+																			<option value="18">Ajax</option>
+																		</select>
+																		
+																	
                                 </div>
                             </div>
                             <!-- /admin -->
 												</div>
-												<div class="col-md-6">
-                            <!-- admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Invoer resultaten</a></h3>
-                                    <a class="read-more" href="admin-points.php">Lees meer</a>
-                                </div>
-                            </div>
-                            <!-- /admin -->
-                        </div>
+												
 
                         
 
