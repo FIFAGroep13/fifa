@@ -14,3 +14,4 @@ $teams->bindParam(':team', $team);
 $teams->execute();
 
 header("location: admin-teams.php?message=\"Added $name1\"");
+$_SESSION['added'] = true;

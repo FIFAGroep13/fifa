@@ -117,7 +117,7 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer Teams</a></h3>
+                                    <h3><a href="#">Invoer Spelers</a></h3>
                                     <a class="read-more" href="admin-teams.php">Lees meer</a>
                                 </div>
                             </div>
@@ -137,8 +137,8 @@
                             <!-- /admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Toon finales</a></h3>
-                                    <a class="read-more" href="admin-finales.php">Lees meer</a>
+                                    <h3><a href="#">Verwijder Spelers</a></h3>
+                                    <a class="read-more" href="admin-del-players.php">Lees meer</a>
                                 </div>
                             </div>
                             <!-- /admin -->
