@@ -71,9 +71,9 @@
 					<li><a href="index.php#about">About</a></li>
 					<li><a href="index.php#schedule">Schedule</a></li>
 					<li><a href="index.php#sponsors">Sponsors</a></li>
-					<li class="active" ><a href="login.php">Login</a></li>
-					<li><a href="admin.php">Admin</a></li>	
-					<li><a href="logout.php">Logout</a></li>					
+					<li><a href="login.php">Login</a></li>
+					<li class="active"><a href="admin.php">Admin</a></li>
+					<li><a href="logout.php">Logout</a></li>
 				</ul>
 			</nav>
 			<!-- /Navigation -->
@@ -101,7 +101,7 @@
 							</div>";
 						}
 						
-							?>
+						?>
 					</div>
 				</div>
 				<!-- /wrapper content -->
@@ -121,54 +121,21 @@
                 <div class="container">
                     <!-- row -->
                     <div class="row">
-					<form class="" action="TeamController.php" method="POST">
+					<form class="" action="DeleteController.php" method="POST">
                         <div class="col-md-12">
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a id="number" href="#">Team Nummer Invoeren</a></h3>
-                                    <select name="team" id="numberselect">
-										<option value="">Select...</option>
-										<option value="1">Feyenoord</option>
-										<option value="2">PSV</option>
-										<option value="3">NAC</option>
-										<option value="4">ADO</option>
-										<option value="5">AZ</option>
-										<option value="6">FC Emmen</option>
-										<option value="7">Excelsior</option>
-										<option value="8">Fortuna</option>
-										<option value="9">De Graafschap</option>
-										<option value="10">FC Groningen</option>
-										<option value="11">sc Heerenveen</option>
-										<option value="12">Heracles</option>
-										<option value="13">PEC</option>
-										<option value="14">FC Utrecht</option>
-										<option value="15">Vitesse</option>
-										<option value="16">VVV-Venlo</option>
-										<option value="17">Willem II</option>
-										<option value="18">Ajax</option>
-									</select>
+                                    <h3><a href="#">Vul D-Nummer in</a></h3>
+                                    <input id="idinp" class="input" name="id" type="text" placeholder="D111111">
                                 </div>
                             </div>
                             <!-- /admin -->
-
-                            <!-- admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a id="name" href="#">Namen van teamlid invoeren</a></h3>
-                                    <input id="nameinp" class="input" name="naam1" type="text" placeholder="Naam">
-                                </div>
-                            </div>
-							<div class="admin">
-                                <div class="admin-content">
-                                    <h3><a id="id" href="#">SchoolID van teamlid invoeren (D-Nummer)</a></h3>
-                                    <input id="idinp" class="input" name="id1" type="text" placeholder="D111111">
-                                </div>
-                            </div>
 							<button type="submit" value="Submit" class="main-btn">Submit</button>
-                            <!-- /admin -->
                         </div>
-                        </div>
+
+
+						
 
                       
 				</div>
