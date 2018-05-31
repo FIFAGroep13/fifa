@@ -92,7 +92,16 @@
 				<!-- wrapper content -->
 				<div class="col-md-12">
 					<div class="page-wrapper-content">
-						<h2>Welkom</h2>
+						<h2>Invoer Wedstrijden</h2>
+						<?php
+						if(isset($_SESSION['addedmatch'])){
+							echo "<div class=\"alert\">
+  							<span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span> 
+  								Succesfully added match.
+							</div>";
+						}
+						unset($_SESSION['addedmatch']);
+							?>
 					</div>
 				</div>
 				<!-- /wrapper content -->
@@ -112,13 +121,13 @@
                 <div class="container">
                     <!-- row -->
                     <div class="row">
-
+											<form class="" action="MatchController.php" method="POST">
                         <div class="col-md-12">
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer Spelers</a></h3>
-                                    <select name="team" class="input" id="teamselect1">
+                                    <h3><a href="#">Invoer Wedstrijden</a></h3>
+                                    <select name="team1" class="input" id="teamselect1">
 																			<option value="">Select...</option>
 																			<option value="1">Feyenoord</option>
 																			<option value="2">PSV</option>
@@ -139,7 +148,7 @@
 																			<option value="17">Willem II</option>
 																			<option value="18">Ajax</option>
 																		</select>
-																		<select name="team" class="input" id="teamselect2">
+																		<select name="team2" class="input" id="teamselect2">
 																			<option value="">Select...</option>
 																			<option value="1">Feyenoord</option>
 																			<option value="2">PSV</option>
@@ -166,6 +175,7 @@
                             </div>
                             <!-- /admin -->
 												</div>
+												<button type="submit" value="Submit" class="main-btn">Submit</button>
 												
 
                         

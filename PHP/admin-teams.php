@@ -100,7 +100,7 @@
   								Succesfully added player.
 							</div>";
 						}
-						
+						unset($_SESSION['addedplayer']);
 							?>
 					</div>
 				</div>

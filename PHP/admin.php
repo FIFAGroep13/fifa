@@ -126,8 +126,8 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer resultaten</a></h3>
-                                    <a class="read-more" href="admin-points.php">Lees meer</a>
+                                    <h3><a href="#">Invoer wedstrijden</a></h3>
+                                    <a class="read-more" href="admin-match.php">Lees meer</a>
                                 </div>
                             </div>
                             <!-- /admin -->
@@ -147,7 +147,7 @@
                             <div class="admin">
                                 <div class="admin-content">
                                     <h3><a href="#">Toon resultaten</a></h3>
-                                    <a class="read-more" href="admin-results.php">Lees meer</a>
+                                    <a class="read-more" href="admin-match.php">Lees meer</a>
                                 </div>
                             </div>
                             <!-- /admin -->
