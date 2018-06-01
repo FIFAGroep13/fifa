@@ -5,7 +5,7 @@ $team1 = $_POST['team1'];
 $team2 = $_POST['team2'];
 
 
-$match = $dbh->prepare('INSERT INTO tbl_matches(team_id_a,team_id_b) VALUES (:teama,:teamb)');
+$match = $dbh->prepare('INSERT INTO tbl_matches(team_id_a,team_id_b,score_team_a,score_team_b) VALUES (:teama,:teamb,0,0)');
 
 $match->bindParam(':teama', $team1);
 $match->bindParam(':teamb', $team2);

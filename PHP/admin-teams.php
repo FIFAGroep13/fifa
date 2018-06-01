@@ -126,8 +126,11 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a id="number" href="#">Team Nummer Invoeren</a></h3>
+																<h3><a id="number" href="#">Team Nummer Invoeren</a></h3>
+																
                                     <select name="team" class="input" id="numberselect">
+																
+                                    
 																			<option value="">Select...</option>
 																			<option value="1">Feyenoord</option>
 																			<option value="2">PSV</option>

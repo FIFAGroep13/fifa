@@ -71,9 +71,9 @@
 					<li><a href="index.php#about">About</a></li>
 					<li><a href="index.php#schedule">Schedule</a></li>
 					<li><a href="index.php#sponsors">Sponsors</a></li>
-					<li><a href="login.php">Login</a></li>
-					<li class="active"><a href="admin.php">Admin</a></li>
-					<li><a href="logout.php">Logout</a></li>
+					<li class="active" ><a href="login.php">Login</a></li>
+					<li><a href="admin.php">Admin</a></li>	
+					<li><a href="logout.php">Logout</a></li>					
 				</ul>
 			</nav>
 			<!-- /Navigation -->
@@ -92,7 +92,16 @@
 				<!-- wrapper content -->
 				<div class="col-md-12">
 					<div class="page-wrapper-content">
-						<h2>Welkom</h2>
+						<h2>Invoer Resultaten</h2>
+						<?php
+						if(isset($_SESSION['addedresult'])){
+							echo "<div class=\"alert\">
+  							<span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span> 
+  								Succesfully added player.
+							</div>";
+						}
+						unset($_SESSION['addedresult']);
+							?>
 					</div>
 				</div>
 				<!-- /wrapper content -->
@@ -102,7 +111,23 @@
 		<!-- /container -->
 	</div>
 	<!-- /Page Header -->
+	<?php
+	$match = $dbh->prepare('SELECT id FROM tbl_matches');
 
+	$match->execute();
+
+	$test = $match->fetchAll(PDO::FETCH_ASSOC);
+
+	$tes2 = $dbh->prepare('SELECT t1.name AS team_id_a, t2.name AS team_id_b FROM tbl_matches AS m LEFT JOIN tbl_teams t1 ON m.team_id_a = t1.id LEFT JOIN tbl_teams t2 ON m.team_id_b = t2.id');
+	
+	$tes2->execute();
+
+	$test2 = $tes2->fetchAll(PDO::FETCH_ASSOC);
+
+	$result = array_merge($test, $test2);
+
+
+	?>
 	<div class="section">
 		<div class="container">
 			<div class="row">
@@ -112,13 +137,21 @@
                 <div class="container">
                     <!-- row -->
                     <div class="row">
-
-                        <div class="col-md-6">
+											<form class="" action="ResultsController.php" method="POST">
+                        <div class="col-md-12">
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer Spelers</a></h3>
-                                    <a class="read-more" href="admin-teams.php">Lees meer</a>
+																<h3><a id="number" href="#">Wedstrijd Selecteren</a></h3>
+																<select name="id" class="input" id="teamresults">
+                                    <?php
+																			foreach($result as $value)
+																			{
+																				echo '<option value="'.$value['id'].'">'.$value['team_id_a'].'-'.$value['team_id_b'].'</option>';
+																			}
+																			
+																		?>
+																</select>
                                 </div>
                             </div>
                             <!-- /admin -->
@@ -126,42 +159,22 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer wedstrijden</a></h3>
-                                    <a class="read-more" href="admin-match.php">Lees meer</a>
+                                    <h3><a id="name" href="#">Score van Team 1 (staat vooraan)</a></h3>
+                                    <input id="nameinp" class="input" name="score1" type="number" placeholder="Score Team 1">
                                 </div>
                             </div>
+							<div class="admin">
+                                <div class="admin-content">
+                                    <h3><a id="id" href="#">Score van Team 2 (staat achteraan)</a></h3>
+                                    <input id="idinp" class="input" name="score2" type="number" placeholder="Score Team 2">
+                                </div>
+                            </div>
+							<button type="submit" value="Submit" class="main-btn">Submit</button>
                             <!-- /admin -->
                         </div>
-
-                        <div class="col-md-6">
-                            <!-- /admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Verwijder Spelers</a></h3>
-                                    <a class="read-more" href="admin-del-players.php">Lees meer</a>
-                                </div>
-                            </div>
-                            <!-- /admin -->
-
-                            <!-- admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Invoer resultaten</a></h3>
-                                    <a class="read-more" href="admin-results.php">Lees meer</a>
-                                </div>
-                            </div>
-                            <!-- /admin -->
                         </div>
-					<div class="col-md-12">
-                            <!-- /admin -->
-                            <div class="admin">
-                                <div class="admin-content">
-                                    <h3><a href="#">Download in CSV</a></h3>
-                                    <form action="download.php" method="post">
-									<input class="main-btn" type="submit" name="submit" value="Download als CSV">
-                                </div>
-                            </div>
 
+                      
 				</div>
 
 
