@@ -12,21 +12,7 @@
 		$('.main-nav').toggleClass('open');
 	});
 
-	// Number and stuff
-	var d = document;
-	d.getElementById("number").onclick = function() {
-  d.getElementById("numberselect").focus();
-  };
 
-  var c = document;
-	c.getElementById("name").onclick = function() {
-  c.getElementById("nameinp").focus();
-  };
-
-  var b = document;
-	b.getElementById("id").onclick = function() {
-  b.getElementById("idinp").focus();
-  };
 
 	// Fixed nav
 	$(window).on('scroll', function() {
