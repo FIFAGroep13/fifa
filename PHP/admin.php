@@ -117,7 +117,7 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer Spelers</a></h3>
+                                    <h3><a href="admin-teams.php">Invoer Spelers</a></h3>
                                     <a class="read-more" href="admin-teams.php">Lees meer</a>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer wedstrijden</a></h3>
+                                    <h3><a href="admin-match.php">Invoer wedstrijden</a></h3>
                                     <a class="read-more" href="admin-match.php">Lees meer</a>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                             <!-- /admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Verwijder Spelers</a></h3>
+                                    <h3><a href="admin-del-players.php">Verwijder Spelers</a></h3>
                                     <a class="read-more" href="admin-del-players.php">Lees meer</a>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@
                             <!-- admin -->
                             <div class="admin">
                                 <div class="admin-content">
-                                    <h3><a href="#">Invoer resultaten</a></h3>
+                                    <h3><a href="admin-results.php">Invoer resultaten</a></h3>
                                     <a class="read-more" href="admin-results.php">Lees meer</a>
                                 </div>
                             </div>
@@ -157,8 +157,11 @@
                             <div class="admin">
                                 <div class="admin-content">
                                     <h3><a href="#">Download in CSV</a></h3>
-                                    <form action="download.php" method="post">
-									<input class="main-btn" type="submit" name="submit" value="Download als CSV">
+                                    <form action="download-matches.php" method="post">
+									<input class="main-btn" type="submit" name="submit" value="Download wedstrijden als CSV">
+									</form>
+									<form action="download-teams.php" method="post">
+									<input class="main-btn" type="submit" name="submit" value="Download teams als CSV">
                                 </div>
                             </div>
 
